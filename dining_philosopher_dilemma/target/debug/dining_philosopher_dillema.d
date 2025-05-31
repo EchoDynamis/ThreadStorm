@@ -1,0 +1,1 @@
+C:\Users\EchoD\source\repos\rust\projects\threadstorm\dining_philosopher_dillema\target\debug\dining_philosopher_dillema.exe: C:\Users\EchoD\source\repos\rust\projects\threadstorm\dining_philosopher_dillema\src\main.rs
