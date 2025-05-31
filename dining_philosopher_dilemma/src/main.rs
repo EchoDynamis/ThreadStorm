@@ -7,8 +7,8 @@ const PHIL_COUNT: usize =5;
 fn main() {
     //create forks
     let forks: Vec<_> = (0..PHIL_COUNT)
-        .map(|_| Arc::new(Mutex::new(())))
-        .collect();
+        .map(|_| Arc::new(Mutex::new(()))) // creates an iterator of Arc<Mutex<()>>
+        .collect(); // gathers them into a Vec<Arc<Mutex()>>>
 
     // spawn philosopher threads
     let handles: Vec<_> = (0..PHIL_COUNT).map(|i| {
